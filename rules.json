@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "\\0&udm=14"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://(?:www\\.)?google\\.com/search\\?(.*)$",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 2,
+    "action": {
+      "type": "allow"
+    },
+    "condition": {
+      "regexFilter": "^https?://(?:www\\.)?google\\.com/search\\?.*udm=14$",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
