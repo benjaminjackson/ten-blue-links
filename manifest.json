@@ -3,7 +3,7 @@
   "name": "10 Blue Links - Remove Google AI summaries",
   "version": "1.0.1",
   "description": "Automatically remove AI summaries from Google search by adding the `udm=14` parameter.",
-  "permissions": ["declarativeNetRequest", "declarativeNetRequestFeedback"],
+  "permissions": ["declarativeNetRequest"],
   "host_permissions": ["*://www.google.com/*"],
   "declarative_net_request": {
     "rule_resources": [{

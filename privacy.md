@@ -8,11 +8,9 @@ This extension does not collect or store any personal information about you or y
 ## Permissions and Access
 To function correctly, this extension requires the following permissions:
 
-1. **webRequest**: This permission allows the extension to observe and analyze web traffic, enabling it to detect and modify Google search URLs.
+1. **declarativeNetRequest**: This permission allows the extension to observe and analyze web traffic, enabling it to detect and modify Google search URLs.
 
-2. **webRequestBlocking**: This permission is required for the extension to block and modify network requests before they are sent, which is necessary for intercepting and modifying Google search URLs.
-
-3. **Host Permission (https://www.google.com/search?*)**: This permission grants the extension access to intercept and modify requests made to Google's search domain, ensuring that it can selectively target and modify Google search URLs without interfering with requests to other domains.
+2. **Host Permission (https://www.google.com/search?*)**: This permission grants the extension access to intercept and modify requests made to Google's search domain, ensuring that it can selectively target and modify Google search URLs without interfering with requests to other domains.
 
 The extension does not access or modify any other websites or web traffic beyond the specified Google search URLs.
 
