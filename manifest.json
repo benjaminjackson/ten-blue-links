@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "10 Blue Links - Remove Google AI summaries",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatically remove AI summaries from Google search by adding the `udm=14` parameter.",
   "permissions": ["declarativeNetRequest"],
   "host_permissions": ["*://www.google.com/*"],
