@@ -20,7 +20,7 @@
       "type": "allow"
     },
     "condition": {
-      "regexFilter": "^https?://(?:www\\.)?google\\.com/search\\?.*udm=14$",
+      "regexFilter": "^https?://(?:www\\.)?google\\.com/search\\?.*udm=[0-9]+.*$",
       "resourceTypes": ["main_frame"]
     }
   }
